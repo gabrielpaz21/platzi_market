@@ -32,6 +32,8 @@ dependencies {
 	}
 }
 
+tasks.jar { enabled = false}
+
 test {
 	useJUnitPlatform()
 }
